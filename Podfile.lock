@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - KeychainAccess (3.1.2)
+  - Kingfisher (5.1.1)
+  - MarqueeLabel/Swift (3.2.0)
+  - NotificationBannerSwift (2.0.1):
+    - MarqueeLabel/Swift (~> 3.2.0)
+    - SnapKit (~> 4.2.0)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.30.1)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`, branch `wip/swift4`)
+  - KeychainAccess
+  - Kingfisher (~> 5.0)
+  - NotificationBannerSwift
+  - SVProgressHUD
+  - SwiftLint
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - KeychainAccess
+    - Kingfisher
+    - MarqueeLabel
+    - NotificationBannerSwift
+    - SnapKit
+    - SVProgressHUD
+    - SwiftLint
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :branch: wip/swift4
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: db432ca1b1a3d8f83ee1f881208c0c960a325e73
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
+  NotificationBannerSwift: 007774aa590cc9680647b92b2f217bef5c00c32c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: b23bf9bbe79c9cdf31a50c9d1a09e6d4bf134258
+
+COCOAPODS: 1.5.3
